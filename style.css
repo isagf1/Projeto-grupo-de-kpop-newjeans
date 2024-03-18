@@ -59,7 +59,7 @@ h2.titulo span{
 @media screen and (max-width: 768px){
     .curiosities-container{
         width: 100%;
-        flex-direcition:column;
+        flex-direction:column;
     }
     
 }
