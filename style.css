@@ -6,8 +6,7 @@
 }
 body{
     background-color: #4736aa;
-    margin: 0;
-    padding: 20px;
+    height:100vh;
 }
 .interface {
     max-width: 12800px;
