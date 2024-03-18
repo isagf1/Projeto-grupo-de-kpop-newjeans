@@ -1,34 +1,47 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Amaranth", sans-serif;;
+}
 body{
-    background-color: rgb(209, 131, 209);
-    margin: 20px;
+    background-color: #000;
+    margin: 0;
     padding: 20px;
 }
-.one-tittle{
-    color: rgb(0, 0, 0);
-    font-family: Arial, Helvetica, sans-serif;
+.one-tittle {
+    color: white;
     font-size: 40px;
-    margin: 40px;
+    padding: 10px;
 }
 .one-tittle span{
         color:rgba(117, 0, 117, 0.719);
 }
-.two-tittle{
+.curiosities-container{
     color: white;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    font-size: 40px;
-    margin: 40px;
-}
-.list{
-    color: 5px solid rgb(255, 13, 13);
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 40px;
-}
-.paragraph-1{
-    color: white;
-    padding: 10px;
-    font-size: 40px;
-}
-.bg-img{
+    padding: 1px;
+    font-size: 25px;
     text-align: center;
-    height: 200px;
+}
+.biography h2{
+    color: purple;
+    padding: 10px;
+    font-size: 30px;
+}
+.biography p{
+    color: white;
+    font-size: 25px;
+    padding: 10px;
+}
+.curiosities-container span{
+    padding: 5px;
+}
+.curiosities-container h3{
+    color: purple;
+    padding: 15px;
+}
+.quotes-container{
+    color: white;
+   padding: 10px;
+   font-size: 25px;
 }
