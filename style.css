@@ -34,6 +34,8 @@ h2.titulo span{
     padding: 25px;
     font-size: 30px;
     text-align: center;
+    width: 100%;
+    justify-content: space-around;
 }
 .curiosities-container span{
     padding: 5px;
@@ -53,4 +55,11 @@ h2.titulo span{
     cursor: pointer;
     margin: 0 10px;
     transition: .2s;
+}
+@media screen and (max-width: 768px){
+    .curiosities-container{
+        width: 100%;
+        flex-direcition:column;
+    }
+    
 }
