@@ -2,26 +2,39 @@
     margin: 80;
     padding: 0%;
     box-sizing: border-box;
-    font-family: "Amaranth", sans-serif;;
+    font-family: "Concert One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 body{
-    background-color: #4736aa;
+    background-color: #2e265a;
     height:100vh;
 }
+.interface .capa{
+    font-weight: bold;
+    text-align: center;
+}
+.interface figcaption{
+    color: white;
+    font-size: 20px;
+}
 .interface {
-    max-width: 12800px;
-    margin: 0;
+    padding: 25px 0;
+    margin: 25px 0;
 }
 .interface h2{
-    color: purple;
+    color: rgb(204, 3, 204);
     font-size: 40px;
     text-align: center;
 }
 .interface p{
     color: white;
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
     padding: 15px;
+    font-style: italic;
+    border-top:1px dashed #fff;
+    border-bottom: 1px dashed #fff;
 }
 .interface span{
     color: #000;
@@ -31,7 +44,7 @@ h2.titulo span{
 }
 .curiosities-container{
     color: white;
-    padding: 25px;
+    padding: 25px 0;
     font-size: 30px;
     text-align: center;
     width: 100%;
@@ -42,7 +55,7 @@ h2.titulo span{
     color: #000;
 }
 .curiosities-container h3{
-    color: purple;
+    color: #FF00FF;
     padding: 15px;
 }
 .btn-social button{
@@ -55,6 +68,17 @@ h2.titulo span{
     cursor: pointer;
     margin: 0 10px;
     transition: .2s;
+}
+.quotes-container{
+    background-color: rgb(197, 196, 196);
+    padding: 30px;
+}
+.quotes-container blockquote{
+    font-weight: bold;
+    font-size: 30px;
+}
+.quotes-container p{
+    font-style: italic;
 }
 @media screen and (max-width: 500px){
     .curiosities-container{
