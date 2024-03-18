@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Amaranth", sans-serif;;
+}
+body{
+    background-color: #7B68EE;
+    margin: 0;
+    padding: 20px;
+}
+.interface {
+    max-width: 12800px;
+    margin: 0;
+}
+.interface h2{
+    color: purple;
+    font-size: 40px;
+    text-align: center;
+}
+.interface p{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding: 15px;
+}
+.interface span{
+    color: #000;
+}
+h2.titulo span{
+    color: purple;
+}
+.curiosities-container{
+    color: white;
+    padding: 25px;
+    font-size: 30px;
+    text-align: center;
+}
+.curiosities-container span{
+    padding: 5px;
+    color: #000;
+}
+.curiosities-container h3{
+    color: purple;
+    padding: 15px;
+}
+.btn-social button{
+    width: 60px;
+    right: 60px;
+    border-radius: 50px;
+    border: none;
+    background-color: purple;
+    font-size: 30px;
+    cursor: pointer;
+    margin: 0 10px;
+    transition: .2s;
+}
