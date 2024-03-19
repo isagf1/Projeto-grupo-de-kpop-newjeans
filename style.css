@@ -7,12 +7,17 @@
     font-style: normal;
 }
 body{
-    background-color: #2e265a;
+    background-color: #030203;
     height:100vh;
 }
-.interface .capa{
+.interface-2{
     font-weight: bold;
-    text-align: center;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.interface img{
+    border-radius: 30px;
+    width:600px;
 }
 .interface figcaption{
     color: white;
@@ -36,11 +41,38 @@ body{
     border-top:1px dashed #fff;
     border-bottom: 1px dashed #fff;
 }
-.interface span{
-    color: #000;
+.interface h1{
+    color: white;  
+    font-size: 40px;
 }
-h2.titulo span{
-    color: purple;
+.interface span{
+    color: #ffffff;
+}
+header{
+    padding: 40px 4%;
+}
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header a{
+    color: rgb(125, 14, 129);
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+header a:hover{
+    color: white;
+    transform: scale(1.5);
+}
+header nav ul{
+    list-style-type:none;
+}
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+    font-size: 25px;
 }
 .curiosities-container{
     color: white;
@@ -52,11 +84,14 @@ h2.titulo span{
 }
 .curiosities-container span{
     padding: 5px;
-    color: #000;
+    color: #b824a4;
 }
 .curiosities-container h3{
     color: #FF00FF;
     padding: 15px;
+}
+.curiosities-container img{
+    border-radius: 20px;
 }
 .btn-social button{
     width: 60px;
